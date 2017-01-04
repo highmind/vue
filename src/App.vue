@@ -2,13 +2,13 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
-    <btn></btn>
+    <btn text="提交" type="danger"></btn>
   </div>
 </template>
 
 <script>
 import Hello from './components/Hello'
-import Btn from './components/Btn'
+import Btn from './components/Button'
 
 export default {
   name: 'app',
