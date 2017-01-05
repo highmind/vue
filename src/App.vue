@@ -2,7 +2,9 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
-    <btn text="提交" type="danger"></btn>
+    <btn text="警告" type="danger"></btn>
+    <btn text="取消" type="default"></btn>
+    <btn text="提交" type="primary"></btn>
   </div>
 </template>
 
