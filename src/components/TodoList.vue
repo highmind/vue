@@ -1,5 +1,6 @@
 <template>
   <div class="todolist">
+    <h1>Todolist</h1>
     <input v-model="newItem" v-on:keyup.enter="addNew">
     <ul>
       <li v-for="item in items" v-on:click="finish(item)" v-bind:class="{complete:item.finished}">{{item.text}}</li>
@@ -16,11 +17,7 @@ export default {
  name: 'todolist',
  data(){
    return{
-     items:[
-       {text:"Vue 技术栈", finished:false},
-       {text:"React 技术栈", finished:false},
-       {text:"Angular 技术栈", finished:false},
-     ],
+     items:[],
      newItem:"" //表单值
    }
  },
@@ -44,5 +41,5 @@ export default {
 .todolist input{width:400px;height:30px;line-height:30px;}
 .todolist ul{list-style:none;text-align:left;margin:0;padding:0}
 .todolist li{margin:0;padding:0;margin-top:10px;margin-left:10px;cursor: pointer;}
-.complete{text-decoration:line-through;}
+.complete{text-decoration:line-through;color:#ccc;}
 </style>
