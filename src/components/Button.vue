@@ -13,19 +13,19 @@ export default {
   },
   data () {
     return {
-      btnCls: "default"
+      btnCls: 'default'
     }
   },
-  computed:{
-    classObject(){
-      return(
+  computed: {
+    classObject () {
+      return (
         this.type
       )
     }
 
   },
   methods: {
-    dothings(){
+    dothings () {
       console.log(this.type)
       this.isDanger = !this.isDanger
     }

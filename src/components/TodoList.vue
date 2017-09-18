@@ -14,24 +14,22 @@
 
 <script>
 export default {
- name: 'todolist',
- data(){
-   return{
-     items:[],
-     newItem:"" //表单值
-   }
- },
- methods:{
-   finish(item){
-     item.finished = !item.finished;
-   },
-   addNew(){
-     this.items.unshift({text:this.newItem, finished:false});//在数组前面插入数据
-     this.newItem = "";
-   }
- }
-
-
+  name: 'todolist',
+  data () {
+    return {
+      items: [],
+      newItem: '' //  表单值
+    }
+  },
+  methods: {
+    finish (item) {
+      item.finished = !item.finished
+    },
+    addNew () {
+      this.items.unshift({text: this.newItem, finished: false}) //  在数组前面插入数据
+      this.newItem = ''
+    }
+  }
 }
 </script>
 
