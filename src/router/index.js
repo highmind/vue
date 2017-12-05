@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 // import Btn from '@/components/Button'
 import Todolist from '@/components/TodoList'
 import Shop from '@/components/Shop'
+import Ani from '@/components/Ani'
 Vue.use(Router)
 
 export default new Router({
@@ -22,6 +23,11 @@ export default new Router({
       path: '/shop',
       name: 'Shop',
       component: Shop
+    },
+     {
+      path: '/ani',
+      name: 'Ani',
+      component: Ani
     }
   ]
 })

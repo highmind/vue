@@ -4,6 +4,7 @@
     <h2>Essential Links</h2>
     <router-link to="/todolist">TodoList-待办事项</router-link>
     <router-link to="/shop">购物车</router-link>
+    <router-link to="/ani">使用anime.js</router-link>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>

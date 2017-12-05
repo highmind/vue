@@ -76,7 +76,10 @@
     * 使用中央总线 bus
   3. 跨级组件通信
     * 使用中央总线 bus
-
+### 动画
+  1. 官网动画
+  2. 第三方库
+    * anime.js  可以操作array,obj和DOM等
 # vue-study
 
 > A Vue.js project
