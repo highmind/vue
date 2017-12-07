@@ -5,6 +5,9 @@ import Home from '@/components/Home'
 import Todolist from '@/components/TodoList'
 import Shop from '@/components/Shop'
 import Ani from '@/components/Ani'
+import Form from '@/components/Form'
+import Main from '@/components/Main'
+import Component from '@/components/Component'
 Vue.use(Router)
 
 export default new Router({
@@ -24,10 +27,25 @@ export default new Router({
       name: 'Shop',
       component: Shop
     },
-     {
+    {
       path: '/ani',
       name: 'Ani',
       component: Ani
+    },
+    {
+      path: '/form',
+      name: 'Form',
+      component: Form
+    },
+    {
+      path: '/main',
+      name: 'Main',
+      component: Main
+    },
+    {
+      path: '/component',
+      name: 'Component',
+      component: Component
     }
   ]
 })

@@ -12,9 +12,6 @@
     <button 
       @click="play">播放</button>
 
-    <h3>VUE 过渡使用</h3>
-    <div class="box"></div>
-
     
    
 

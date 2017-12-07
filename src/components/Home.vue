@@ -1,10 +1,17 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/todolist">TodoList-待办事项</router-link>
-    <router-link to="/shop">购物车</router-link>
-    <router-link to="/ani">使用anime.js</router-link>
+
+    <ul>
+      <li><router-link to="/todolist">TodoList-待办事项</router-link></li>
+      <li><router-link to="/shop">购物车</router-link></li>
+      <li><router-link to="/ani">使用anime.js</router-link></li>
+      <li><router-link to="/form">使用Form</router-link></li>
+      <li><router-link to="/main">slot插槽</router-link></li>
+      <li><router-link to="/component">使用props传递数据</router-link></li>
+    </ul>
+    
+
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
       <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
