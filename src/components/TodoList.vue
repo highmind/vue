@@ -18,6 +18,11 @@ export default {
   data () {
     return {
       items: [],
+      testData: [
+      {text:'吃饭',isover: false},
+      {text:'睡觉',isover: false},
+      {text:'打豆豆',isover: false}
+      ],
       newItem: '' //  表单值
     }
   },
@@ -28,7 +33,10 @@ export default {
     addNew () {
       this.items.unshift({text: this.newItem, finished: false}) //  在数组前面插入数据
       this.newItem = ''
-    }
+    },
+    over (item) {
+      item.isover = !item.isover
+   }
   }
 }
 </script>

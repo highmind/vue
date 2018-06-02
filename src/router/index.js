@@ -8,6 +8,9 @@ import Ani from '@/components/Ani'
 import Form from '@/components/Form'
 import Main from '@/components/Main'
 import Component from '@/components/Component'
+import Movie from '@/components/Movie'
+import Detail from '@/components/Detail'
+
 Vue.use(Router)
 
 export default new Router({
@@ -46,6 +49,16 @@ export default new Router({
       path: '/component',
       name: 'Component',
       component: Component
+    },
+    {
+      path: '/movie',
+      name: 'Movie',
+      component: Movie
+    },
+    {
+      path: '/movie/:id',
+      name: 'Detail',
+      component: Detail
     }
   ]
 })
