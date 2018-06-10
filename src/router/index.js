@@ -10,6 +10,7 @@ import Main from '@/components/Main'
 import Component from '@/components/Component'
 import Movie from '@/components/Movie'
 import Detail from '@/components/Detail'
+import ProviceSelect from '@/components/ProviceSelect'
 
 Vue.use(Router)
 
@@ -59,6 +60,11 @@ export default new Router({
       path: '/movie/:id',
       name: 'Detail',
       component: Detail
+    },
+    {
+      path: '/provice',
+      name: 'ProviceSelect',
+      component: ProviceSelect
     }
   ]
 })

@@ -10,6 +10,7 @@
       <li><router-link to="/main">slot插槽</router-link></li>
       <li><router-link to="/component">使用props传递数据</router-link></li>
       <li><router-link to="/movie">axios获取远程数据</router-link></li>
+      <li><router-link to="/provice">省市级联</router-link></li>
     </ul>
     
 
