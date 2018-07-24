@@ -11,6 +11,7 @@ import Component from '@/components/Component'
 import Movie from '@/components/Movie'
 import Detail from '@/components/Detail'
 import ProviceSelect from '@/components/ProviceSelect'
+import LifeCycle from '@/components/LifeCycle'
 
 Vue.use(Router)
 
@@ -65,6 +66,11 @@ export default new Router({
       path: '/provice',
       name: 'ProviceSelect',
       component: ProviceSelect
+    },
+    {
+      path: '/lifecycle',
+      name: 'LifeCycle',
+      component: LifeCycle
     }
   ]
 })

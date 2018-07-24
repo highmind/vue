@@ -72,6 +72,11 @@
     * 父组件向子组件 传递 数据，使用 v-bind 绑定
   3. 单向数据流
   4. 数据验证
+  5. 生命周期方法
+    beforecreated：el 和 data 并未初始化 
+    created:完成了 data 数据的初始化，el没有
+    beforeMount：完成了 el 和 data 初始化 
+    mounted ：完成挂载
 
 ### 组件通信
   1. 父子组件通信
