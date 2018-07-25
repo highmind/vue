@@ -12,6 +12,7 @@ import Movie from '@/components/Movie'
 import Detail from '@/components/Detail'
 import ProviceSelect from '@/components/ProviceSelect'
 import LifeCycle from '@/components/LifeCycle'
+import Parent from '@/components/Parent'
 
 Vue.use(Router)
 
@@ -71,6 +72,11 @@ export default new Router({
       path: '/lifecycle',
       name: 'LifeCycle',
       component: LifeCycle
+    },
+    {
+      path: '/parent',
+      name: 'Parent',
+      component: Parent
     }
   ]
 })

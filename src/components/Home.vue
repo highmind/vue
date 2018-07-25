@@ -12,6 +12,7 @@
       <li><router-link to="/movie">axios获取远程数据</router-link></li>
       <li><router-link to="/provice">省市级联</router-link></li>
       <li><router-link to="/lifecycle">组件生命周期</router-link></li>
+      <li><router-link to="/parent">父子组件间通信</router-link></li>
     </ul>
 
   </div>
