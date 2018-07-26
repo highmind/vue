@@ -13,7 +13,7 @@ import Detail from '@/components/Detail'
 import ProviceSelect from '@/components/ProviceSelect'
 import LifeCycle from '@/components/LifeCycle'
 import Parent from '@/components/Parent'
-
+import Brother from '@/components/Brother'
 Vue.use(Router)
 
 export default new Router({
@@ -77,6 +77,11 @@ export default new Router({
       path: '/parent',
       name: 'Parent',
       component: Parent
+    },
+    {
+      path: '/brother',
+      name: 'Brother',
+      component: Brother
     }
   ]
 })
