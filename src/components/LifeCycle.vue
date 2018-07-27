@@ -1,8 +1,9 @@
 <template>
   <div class="content">
     <h1>组件生命周期</h1>
-    <h2>{{ msg }}</h2>
-    <button v-on:click="changeData">改变data的值</button>
+    <h2>{{ num }}</h2>
+    <button v-on:click="changeData">加1</button>
+    <button v-on:click="del">销毁组件</button>
   </div>
 </template>
 
@@ -12,13 +13,16 @@ export default {
   name: 'LifeCycle',
   data () {
     return {
-      msg: "大江东去"
+      num: 1
     }
   },
   
   methods: {
     changeData: function() {
-    	this.msg = "千古风流人物"
+    	this.num = this.num + 1
+    },
+    del: function(){
+      this.$destroy()
     }
   },
 

@@ -77,6 +77,7 @@
     created:完成了 data 数据的初始化，el没有
     beforeMount：完成了 el 和 data 初始化 
     mounted ：完成挂载
+  6. 生命周期使用：loading axios ajax请求
 
 ### 组件通信
   1. 父子组件通信
